@@ -56,7 +56,7 @@ sum(complete_cases == FALSE)
 ```
 
 I will use the mean for the intervals to fill in the missing values in those intervals.
-```{r, echo =TRUE,cache=TRUE}
+```{r, echo =TRUE}
 filled_data = data.frame(raw_data)
 for (i in 1:nrow(filled_data)){
   row <- filled_data[i,]
